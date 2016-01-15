@@ -7,6 +7,7 @@
 //
 
 #import "IOViewController.h"
+#import "IOEssentia.h"
 
 @interface IOViewController ()
 

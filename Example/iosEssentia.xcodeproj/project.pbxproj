@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6D473B471C495A8C00071FC6 /* beardy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D473B461C495A8C00071FC6 /* beardy.m4a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AC7BD89CD98C10C2157B8B16 /* Pods_iosEssentia_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9A73FE0C3DEAEB2CAEF315 /* Pods_iosEssentia_Example.framework */; };
 		C603A3C61690D4F7B29089DA /* Pods_iosEssentia_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B8B2FDF706C8C6BFEC0BB4 /* Pods_iosEssentia_Tests.framework */; };
@@ -59,6 +60,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		610CB8219B7385B7432F27DF /* iosEssentia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iosEssentia.podspec; path = ../iosEssentia.podspec; sourceTree = "<group>"; };
+		6D473B461C495A8C00071FC6 /* beardy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beardy.m4a; sourceTree = "<group>"; };
 		6EE4F95EE120147D3EE5F582 /* Pods-iosEssentia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosEssentia_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosEssentia_Example/Pods-iosEssentia_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AE9D4DDC912A30B1163D0BE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		6003F593195388D20070C39A /* Example for iosEssentia */ = {
 			isa = PBXGroup;
 			children = (
+				6D473B451C495A6100071FC6 /* resources */,
 				6003F59C195388D20070C39A /* IOAppDelegate.h */,
 				6003F59D195388D20070C39A /* IOAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -180,6 +183,14 @@
 				E9D44E34D25C1449BE710A3A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6D473B451C495A6100071FC6 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D473B461C495A8C00071FC6 /* beardy.m4a */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 		7E804E28848FF937B719BF91 /* Pods */ = {
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				6D473B471C495A8C00071FC6 /* beardy.m4a in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
