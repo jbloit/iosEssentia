@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'iosEssentia_Example', :exclusive => true do
+  pod "iosEssentia", :path => "../"
+end
+
+target 'iosEssentia_Tests', :exclusive => true do
+  pod "iosEssentia", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
